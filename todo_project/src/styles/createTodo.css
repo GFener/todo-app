@@ -1,0 +1,30 @@
+.createTaskDiv{
+    display: flex;
+    justify-content: center;
+}
+.createForm {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+  
+}
+.createInput{
+
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.addButton{
+    width: 60px;
+    height: 100%;;
+    cursor: pointer;
+    background-color: pink;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+}
