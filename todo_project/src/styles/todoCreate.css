@@ -1,9 +1,10 @@
 .createTaskDiv{
     display: flex;
     justify-content: center;
+    width: 400px;
 }
 .createForm {
-    width: 400px;
+    width:100%;
     height: 50px;
     display: flex;
     border: 1px solid lightgray;
