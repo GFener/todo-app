@@ -7,7 +7,7 @@
     height: 50px;
     display: flex;
     border: 1px solid lightgray;
-    border-radius: 30px;
+    border-radius: 20px;
   
 }
 .createInput{
@@ -20,11 +20,14 @@
     padding: 10px;
 }
 .addButton{
-    width: 60px;
+    width: 100px;
     height: 100%;;
     cursor: pointer;
     background-color: pink;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 16px;
+}
+.addButton:hover{
+    background-color: hotpink;
 }

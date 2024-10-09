@@ -1,14 +1,20 @@
-
-
 import './App.css';
-import CreateTodo from './Components/CreateTodo';
+
+import TodoList from './Components/TodoList';
+import TodoCreate from './Components/TodoCreate';
 
 function App() {
+  
+
+ 
+  
   return (
     <div className="App">
+      <div style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center'}}>
       <h1>To Do List</h1>
-      <CreateTodo />
-      
+      <TodoCreate />
+      <TodoList />
+      </div>
     </div>
   );
 }
